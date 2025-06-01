@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient(135deg, rgb(17, 60, 71),rgb(78, 13, 78)) no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1{
+    color: rgb(54, 161, 164);
+    font-size: 3rem;
+    margin-top: 70px;
+}
+h3{
+    color: rgb(150, 69, 164);
+}
+
+p{
+    color: white;
+    font-size: 2rem;
+}
+
+.main_container{
+    border: 3px rgb(47, 220, 255) solid;
+    border-radius: 10px;
+    max-width: 80%;
+    margin-top: 140px;
+    margin-left: 140px;
+    height: 500px;
+}
+
+.dropdown-container{
+    margin-left: 40%;
+}
+
+.dropdown-menu{
+    background-color: rgba(185, 186, 186, 0.085);
+}
+
+.dropdown-item{
+    color: white;
+}
+
+.quiz-container{
+    border: 3px rgb(47, 220, 255) solid;
+    border-radius: 10px;
+    max-width: 90%;
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    height: 800px;
+    padding: 30px;
+    overflow: auto;
+    color: white;
+}

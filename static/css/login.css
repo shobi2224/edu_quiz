@@ -1,0 +1,67 @@
+body{
+    background: linear-gradient(135deg, rgb(17, 60, 71),rgb(78, 13, 78));
+    /* url('/static/images/bg_6.jpg') no-repeat center center fixed; */
+    /* background-size: cover; */
+}
+
+p{
+    color: white;
+    font-size: 18px;
+}
+
+a{
+    color: white;
+}
+
+.card{
+    border: 2px rgb(83, 222, 225) solid;
+    border-radius: 5px;
+    box-shadow: 3px rgba(240, 243, 243, 0.952);
+}
+
+.credential-container {
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+}
+
+#id_password, #c_id_password {
+    padding-right: 30px; /* Add space for the icon */
+}
+
+/* Style for the eye icon */
+#toggle-password, #toggle-password1, #toggle-password2 {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #6c757d;
+    font-size: 18px;
+}
+
+.message-container {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    z-index: 1000;
+}
+
+.message {
+    padding: 12px 20px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 250px;
+}
+
+.message.success { background-color: #28a745; }
+.message.error { background-color: #dc3545; }
+.message.info { background-color: #007bff; }
+.message.warning { background-color: #ffc107; }
